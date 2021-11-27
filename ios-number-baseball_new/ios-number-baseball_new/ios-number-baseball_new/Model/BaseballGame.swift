@@ -1,7 +1,7 @@
 import Foundation
 
-class Number {
-    var computer: [Int] {
+struct Computer {
+    func computerNumbers() -> [Int] {
         let numberRange: [Int] = Array(1...9)
         let requestedAmount = 3
         
@@ -9,5 +9,13 @@ class Number {
         let computerNumber = Array(shuffledNumber.prefix(requestedAmount))
         
         return computerNumber
+    }
+}
+
+struct User {
+    var numbers = [Int]()
+    
+    mutating func newGame() {
+        numbers.removeAll()
     }
 }

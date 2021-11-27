@@ -14,6 +14,7 @@
 		180EC3052751FE7300AB167B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EC3042751FE7300AB167B /* Assets.xcassets */; };
 		180EC3082751FE7300AB167B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EC3062751FE7300AB167B /* LaunchScreen.storyboard */; };
 		180EC315275201B400AB167B /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EC314275201B400AB167B /* BaseballGame.swift */; };
+		180EC31A27521E9C00AB167B /* GameManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EC31927521E9C00AB167B /* GameManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		180EC3072751FE7300AB167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180EC3092751FE7300AB167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180EC314275201B400AB167B /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
+		180EC31927521E9C00AB167B /* GameManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		180EC2FA2751FE6E00AB167B /* ios-number-baseball_new */ = {
 			isa = PBXGroup;
 			children = (
+				180EC3182752162100AB167B /* Protocol */,
 				180EC3132752018B00AB167B /* View */,
 				180EC3122752018400AB167B /* Model */,
 				180EC3112752017B00AB167B /* ViewController */,
@@ -80,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				180EC314275201B400AB167B /* BaseballGame.swift */,
+				180EC31927521E9C00AB167B /* GameManger.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -92,6 +96,13 @@
 				180EC3062751FE7300AB167B /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		180EC3182752162100AB167B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				180EC3002751FE6E00AB167B /* ViewController.swift in Sources */,
 				180EC315275201B400AB167B /* BaseballGame.swift in Sources */,
 				180EC2FC2751FE6E00AB167B /* AppDelegate.swift in Sources */,
+				180EC31A27521E9C00AB167B /* GameManger.swift in Sources */,
 				180EC2FE2751FE6E00AB167B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
