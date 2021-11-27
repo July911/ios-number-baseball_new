@@ -1,8 +1,13 @@
-//
-//  BaseballGame.swift
-//  ios-number-baseball_new
-//
-//  Created by 조영민 on 2021/11/27.
-//
-
 import Foundation
+
+class Number {
+    var computer: [Int] {
+        let numberRange: [Int] = Array(1...9)
+        let requestedAmount = 3
+        
+        let shuffledNumber = numberRange.shuffled()
+        let computerNumber = Array(shuffledNumber.prefix(requestedAmount))
+        
+        return computerNumber
+    }
+}
