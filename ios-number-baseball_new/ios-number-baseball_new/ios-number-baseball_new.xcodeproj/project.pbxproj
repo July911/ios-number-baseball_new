@@ -14,6 +14,7 @@
 		180EC3052751FE7300AB167B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EC3042751FE7300AB167B /* Assets.xcassets */; };
 		180EC3082751FE7300AB167B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EC3062751FE7300AB167B /* LaunchScreen.storyboard */; };
 		180EC315275201B400AB167B /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EC314275201B400AB167B /* BaseballGame.swift */; };
+		187E56102757CEE200926F6E /* NumberBaseballTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E560F2757CEE200926F6E /* NumberBaseballTest.swift */; };
 		189B0AF92757989500CAAF63 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0AF82757989500CAAF63 /* GameManager.swift */; };
 		189B0AFC275798B100CAAF63 /* ModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0AFB275798B100CAAF63 /* ModeManager.swift */; };
 		189B0B012757991900CAAF63 /* BaseballGame+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0B002757991900CAAF63 /* BaseballGame+Extension.swift */; };
@@ -31,6 +32,7 @@
 		180EC3072751FE7300AB167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180EC3092751FE7300AB167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180EC314275201B400AB167B /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
+		187E560F2757CEE200926F6E /* NumberBaseballTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBaseballTest.swift; sourceTree = "<group>"; };
 		189B0AF82757989500CAAF63 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		189B0AFB275798B100CAAF63 /* ModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeManager.swift; sourceTree = "<group>"; };
 		189B0B002757991900CAAF63 /* BaseballGame+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseballGame+Extension.swift"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				180EC3122752018400AB167B /* Model */,
 				180EC3112752017B00AB167B /* ViewController */,
 				180EC3092751FE7300AB167B /* Info.plist */,
+				187E560F2757CEE200926F6E /* NumberBaseballTest.swift */,
 			);
 			path = "ios-number-baseball_new";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				180EC315275201B400AB167B /* BaseballGame.swift in Sources */,
 				189B0B032757993900CAAF63 /* MultiModeManager.swift in Sources */,
 				189B0B052757996900CAAF63 /* GameMode.swift in Sources */,
+				187E56102757CEE200926F6E /* NumberBaseballTest.swift in Sources */,
 				180EC2FC2751FE6E00AB167B /* AppDelegate.swift in Sources */,
 				180EC2FE2751FE6E00AB167B /* SceneDelegate.swift in Sources */,
 				189B0B012757991900CAAF63 /* BaseballGame+Extension.swift in Sources */,
