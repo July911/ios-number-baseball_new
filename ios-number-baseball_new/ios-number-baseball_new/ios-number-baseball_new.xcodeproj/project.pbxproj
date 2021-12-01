@@ -14,7 +14,11 @@
 		180EC3052751FE7300AB167B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EC3042751FE7300AB167B /* Assets.xcassets */; };
 		180EC3082751FE7300AB167B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EC3062751FE7300AB167B /* LaunchScreen.storyboard */; };
 		180EC315275201B400AB167B /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EC314275201B400AB167B /* BaseballGame.swift */; };
-		180EC31A27521E9C00AB167B /* GameManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EC31927521E9C00AB167B /* GameManger.swift */; };
+		189B0AF92757989500CAAF63 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0AF82757989500CAAF63 /* GameManager.swift */; };
+		189B0AFC275798B100CAAF63 /* ModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0AFB275798B100CAAF63 /* ModeManager.swift */; };
+		189B0B012757991900CAAF63 /* BaseballGame+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0B002757991900CAAF63 /* BaseballGame+Extension.swift */; };
+		189B0B032757993900CAAF63 /* MultiModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0B022757993900CAAF63 /* MultiModeManager.swift */; };
+		189B0B052757996900CAAF63 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0B042757996900CAAF63 /* GameMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +31,11 @@
 		180EC3072751FE7300AB167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180EC3092751FE7300AB167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180EC314275201B400AB167B /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
-		180EC31927521E9C00AB167B /* GameManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManger.swift; sourceTree = "<group>"; };
+		189B0AF82757989500CAAF63 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		189B0AFB275798B100CAAF63 /* ModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeManager.swift; sourceTree = "<group>"; };
+		189B0B002757991900CAAF63 /* BaseballGame+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseballGame+Extension.swift"; sourceTree = "<group>"; };
+		189B0B022757993900CAAF63 /* MultiModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModeManager.swift; sourceTree = "<group>"; };
+		189B0B042757996900CAAF63 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				180EC314275201B400AB167B /* BaseballGame.swift */,
-				180EC31927521E9C00AB167B /* GameManger.swift */,
+				189B0B002757991900CAAF63 /* BaseballGame+Extension.swift */,
+				189B0AF82757989500CAAF63 /* GameManager.swift */,
+				189B0B042757996900CAAF63 /* GameMode.swift */,
+				189B0AFB275798B100CAAF63 /* ModeManager.swift */,
+				189B0B022757993900CAAF63 /* MultiModeManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,11 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189B0AFC275798B100CAAF63 /* ModeManager.swift in Sources */,
 				180EC3002751FE6E00AB167B /* ViewController.swift in Sources */,
+				189B0AF92757989500CAAF63 /* GameManager.swift in Sources */,
 				180EC315275201B400AB167B /* BaseballGame.swift in Sources */,
+				189B0B032757993900CAAF63 /* MultiModeManager.swift in Sources */,
+				189B0B052757996900CAAF63 /* GameMode.swift in Sources */,
 				180EC2FC2751FE6E00AB167B /* AppDelegate.swift in Sources */,
-				180EC31A27521E9C00AB167B /* GameManger.swift in Sources */,
 				180EC2FE2751FE6E00AB167B /* SceneDelegate.swift in Sources */,
+				189B0B012757991900CAAF63 /* BaseballGame+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
