@@ -11,8 +11,7 @@ class MultimodeManager: GameManager {
     }
     
     func insertUserName(input: String) -> [String] {
-        
-        return [""]
+        return Array(input.components(separatedBy: " "))
     }
     
 }
