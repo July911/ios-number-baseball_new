@@ -2,8 +2,8 @@ import Foundation
 
 extension BaseballGame {
     func creatComputerNumbers() -> [Int] {
-        var numberRange = 1...9
-        var availableCount = 3
+        let numberRange: ClosedRange<Int> = 1...9
+        let availableCount = 3
         var computerNumbers = [Int]()
         
         repeat {
